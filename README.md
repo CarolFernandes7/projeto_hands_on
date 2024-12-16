@@ -75,8 +75,14 @@ Saída Esperada
 Exemplo de Gráficos Gerados:
 
 1. Importância das Variáveis
-2. Matriz de Confusão
+   ![Descrição da Imagem](imagens/grafico.png)
+   
+2.  Matriz de Confusão
+   ![Descrição da Imagem](imagens/Figure_1.png)
+
 3. SHAP Summary Plot
+![Descrição da Imagem](imagens/shap.png)
+
 
 Estrutura do Projeto:
 ```plaintext
