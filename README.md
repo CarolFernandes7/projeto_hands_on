@@ -41,14 +41,14 @@ O script train_model.py realiza as seguintes etapas:
 	•	O modelo RandomForest treinado é salvo em:
 	•	models/random_forest_churn.pkl.
 
-Como Rodar o Script
+Como Rodar o Script:
 	
- 1.	Certifique-se de ter instalado as bibliotecas necessárias:
+1. Certifique-se de ter instalado as bibliotecas necessárias:
 
  ``pip install pandas scikit-learn imbalanced-learn matplotlib xgboost shap joblib``
 
  
-	2.	Execute o script:
+2. Execute o script:
 
 ``python3 scripts/train_model.py ``
 
@@ -72,18 +72,16 @@ Saída Esperada
 	•	O modelo treinado é salvo em:
 	•	models/random_forest_churn.pkl.
  
- Exemplo de Gráficos Gerados
+Exemplo de Gráficos Gerados:
 
-Importância das Variáveis
+1. Importância das Variáveis
+2. Matriz de Confusão
+3. SHAP Summary Plot
 
+Estrutura do Projeto:
+```plaintext
 
-Matriz de Confusão
-
-SHAP Summary Plot
-
-
-Estrutura do Projeto
-``projeto_hands_on/
+projeto_hands_on/
 │
 ├── data/                     # Dados usados no projeto
 │   ├── raw/                  # Dados brutos
@@ -104,5 +102,5 @@ Estrutura do Projeto
 │   └── main.tf               # Provisionamento da infraestrutura
 │
 ├── README.md                 # Documentação do projeto
-└── requirements.txt          # Dependências do projeto
-``
+└── requirements.txt          # Dependências do projeto 
+```
